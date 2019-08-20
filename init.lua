@@ -67,4 +67,4 @@ for _, row in ipairs(colours) do
     })
 end
 
-minetest.add_alias("cglass:dark_grey","cglass:darkgrey")
+minetest.register_alias("cglass:dark_grey","cglass:darkgrey")
