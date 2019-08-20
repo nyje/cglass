@@ -66,3 +66,5 @@ for _, row in ipairs(colours) do
         sounds = default.node_sound_glass_defaults(),
     })
 end
+
+minetest.add_alias("cglass:dark_grey","cglass:darkgrey")
