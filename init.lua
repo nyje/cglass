@@ -24,8 +24,7 @@ local colours = {
     }
 
 local add_node = function(a,b,c,d,e)
-    local nodename = "cglass:"..a.."_" .. c[1]
-
+    local nodename = "cglass:"..c[1]
 
     if string.find(a,":") then
         nodename = a.."_" .. c[1]
